@@ -1,0 +1,588 @@
+TTapsPerMinute
+v7
+r0
+t322939792.604593
+cCheck dependencies
+cCpResource build/Debug-iphoneos/TapsPerMinute.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
+cProcessInfoPlistFile /Users/alexdr/Programming/IPhone/TapsPerMinute/build/Debug-iphoneos/TapsPerMinute.app/Info.plist TapsPerMinute-Info.plist
+cCompileXIB /Users/alexdr/Programming/IPhone/TapsPerMinute/MainWindow.xib
+cCompileXIB /Users/alexdr/Programming/IPhone/TapsPerMinute/TapsPerMinuteViewController.xib
+cCompileXIB /Users/alexdr/Programming/IPhone/TapsPerMinute/../TPM/Classes/TPMMenu.xib
+cCompileXIB /Users/alexdr/Programming/IPhone/TapsPerMinute/../TPM/TPMViewController.xib
+cCopyPNGFile /Users/alexdr/Programming/IPhone/TapsPerMinute/build/Debug-iphoneos/TapsPerMinute.app/Thing.png ../TPM/Thing.png
+cCopyPNGFile /Users/alexdr/Programming/IPhone/TapsPerMinute/build/Debug-iphoneos/TapsPerMinute.app/Default.png ../TPM/Default.png
+cProcessPCH /var/folders/NM/NMHDNzHiFLiQxrEXEEVmLU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TapsPerMinute_Prefix-guxieqfsamzfbpgclwdfkxgfavqi/TapsPerMinute_Prefix.pch.gch TapsPerMinute_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+cProcessPCH /var/folders/NM/NMHDNzHiFLiQxrEXEEVmLU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TapsPerMinute_Prefix-atvtvwhgqlumtfctdyitwhycqlgf/TapsPerMinute_Prefix.pch.gch TapsPerMinute_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/TapsPerMinute.build/Debug-iphoneos/TapsPerMinute.build/Objects-normal/armv6/main.o /Users/alexdr/Programming/IPhone/TapsPerMinute/main.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/TapsPerMinute.build/Debug-iphoneos/TapsPerMinute.build/Objects-normal/armv6/TapsPerMinuteAppDelegate.o /Users/alexdr/Programming/IPhone/TapsPerMinute/Classes/TapsPerMinuteAppDelegate.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/TapsPerMinute.build/Debug-iphoneos/TapsPerMinute.build/Objects-normal/armv6/TapsPerMinuteViewController.o /Users/alexdr/Programming/IPhone/TapsPerMinute/Classes/TapsPerMinuteViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/TapsPerMinute.build/Debug-iphoneos/TapsPerMinute.build/Objects-normal/armv6/TPMMenu.o /Users/alexdr/Programming/IPhone/TapsPerMinute/../TPM/Classes/TPMMenu.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/TapsPerMinute.build/Debug-iphoneos/TapsPerMinute.build/Objects-normal/armv6/TPMViewController.o /Users/alexdr/Programming/IPhone/TapsPerMinute/../TPM/Classes/TPMViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/TapsPerMinute.build/Debug-iphoneos/TapsPerMinute.build/Objects-normal/armv7/main.o /Users/alexdr/Programming/IPhone/TapsPerMinute/main.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/TapsPerMinute.build/Debug-iphoneos/TapsPerMinute.build/Objects-normal/armv7/TapsPerMinuteAppDelegate.o /Users/alexdr/Programming/IPhone/TapsPerMinute/Classes/TapsPerMinuteAppDelegate.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/TapsPerMinute.build/Debug-iphoneos/TapsPerMinute.build/Objects-normal/armv7/TapsPerMinuteViewController.o /Users/alexdr/Programming/IPhone/TapsPerMinute/Classes/TapsPerMinuteViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/TapsPerMinute.build/Debug-iphoneos/TapsPerMinute.build/Objects-normal/armv7/TPMMenu.o /Users/alexdr/Programming/IPhone/TapsPerMinute/../TPM/Classes/TPMMenu.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/TapsPerMinute.build/Debug-iphoneos/TapsPerMinute.build/Objects-normal/armv7/TPMViewController.o /Users/alexdr/Programming/IPhone/TapsPerMinute/../TPM/Classes/TPMViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cProcessProductPackaging "/Users/alexdr/Library/MobileDevice/Provisioning Profiles/F32208B8-1947-4AA5-AF0A-1289892DDCC7.mobileprovision" /Users/alexdr/Programming/IPhone/TapsPerMinute/build/Debug-iphoneos/TapsPerMinute.app/embedded.mobileprovision
+cProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist /Users/alexdr/Programming/IPhone/TapsPerMinute/build/TapsPerMinute.build/Debug-iphoneos/TapsPerMinute.build/TapsPerMinute.xcent
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk
+c000000004CC7DC9E0000000000000110
+t1288166558
+s272
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist
+c000000004CB3DFCF00000000000001A7
+t1286856655
+s423
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
+c000000004CB3DFCF00000000000001E5
+t1286856655
+s485
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004CC10EF500000000003532B0
+t1287720693
+s3486384
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004CC10F4700000000003E1F20
+t1287720775
+s4071200
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004CC10F1C0000000000001466
+t1287720732
+s5222
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004CC11AE60000000000000AA1
+t1287723750
+s2721
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004CC11B750000000000C769F0
+t1287723893
+s13068784
+
+N/Users/alexdr/Library/MobileDevice/Provisioning Profiles/F32208B8-1947-4AA5-AF0A-1289892DDCC7.mobileprovision
+c000000004D77D4A30000000000001C0D
+t1299698851
+s7181
+
+N/Users/alexdr/Programming/IPhone/TPM/Classes/TPMMenu.h
+c000000004D8F73FF0000000000000680
+t1301246975
+s1664
+i<UIKit/UIKit.h>
+
+N/Users/alexdr/Programming/IPhone/TPM/Classes/TPMViewController.h
+c000000004D8F5B3A000000000000027D
+t1301240634
+s637
+i<UIKit/UIKit.h>
+
+N/Users/alexdr/Programming/IPhone/TapsPerMinute/../TPM/Classes/TPMMenu.m
+c000000004D8F73FF0000000000000D23
+t1301246975
+s3363
+i"TPMMenu.h"
+i"TPMViewController.h"
+
+N/Users/alexdr/Programming/IPhone/TapsPerMinute/../TPM/Classes/TPMMenu.xib
+c000000004D8F604C000000000000AD5F
+t1301241932
+s44383
+
+N/Users/alexdr/Programming/IPhone/TapsPerMinute/../TPM/Classes/TPMViewController.m
+c000000004D8F637000000000000014B6
+t1301242736
+s5302
+i"TPMViewController.h"
+i"TPMMenu.h"
+
+N/Users/alexdr/Programming/IPhone/TapsPerMinute/../TPM/Default.png
+c000000004C3933DE0000000000007D6A
+t1278817246
+s32106
+
+N/Users/alexdr/Programming/IPhone/TapsPerMinute/../TPM/TPMViewController.xib
+c000000004D8E5CD900000000000061CA
+t1301175513
+s25034
+
+N/Users/alexdr/Programming/IPhone/TapsPerMinute/../TPM/Thing.png
+c000000004D2C02890000000000000E36
+t1294729865
+s3638
+
+N/Users/alexdr/Programming/IPhone/TapsPerMinute/Classes/TapsPerMinuteAppDelegate.h
+c000000004D8F713E0000000000000207
+t1301246270
+s519
+i<UIKit/UIKit.h>
+
+N/Users/alexdr/Programming/IPhone/TapsPerMinute/Classes/TapsPerMinuteAppDelegate.m
+c000000004D8F713E0000000000000AB7
+t1301246270
+s2743
+i"TapsPerMinuteAppDelegate.h"
+i"TapsPerMinuteViewController.h"
+
+N/Users/alexdr/Programming/IPhone/TapsPerMinute/Classes/TapsPerMinuteViewController.h
+c000000004D8F73FF00000000000001ED
+t1301246975
+s493
+i<UIKit/UIKit.h>
+
+N/Users/alexdr/Programming/IPhone/TapsPerMinute/Classes/TapsPerMinuteViewController.m
+c000000004D8F73FF0000000000000785
+t1301246975
+s1925
+i"TapsPerMinuteViewController.h"
+
+N/Users/alexdr/Programming/IPhone/TapsPerMinute/MainWindow.xib
+c000000004D8F713E0000000000004E71
+t1301246270
+s20081
+
+N/Users/alexdr/Programming/IPhone/TapsPerMinute/TapsPerMinuteViewController.xib
+c000000004D8F723C0000000000003B73
+t1301246524
+s15219
+
+N/Users/alexdr/Programming/IPhone/TapsPerMinute/TapsPerMinute_Prefix.pch
+c000000004D8F713E00000000000000C3
+t1301246270
+s195
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/alexdr/Programming/IPhone/TapsPerMinute/build/Debug-iphoneos/TapsPerMinute.app
+t2
+s0
+
+N/Users/alexdr/Programming/IPhone/TapsPerMinute/build/Debug-iphoneos/TapsPerMinute.app.dSYM
+t2
+s0
+
+N/Users/alexdr/Programming/IPhone/TapsPerMinute/build/Debug-iphoneos/TapsPerMinute.app/Default.png
+t1301246984
+s39784
+
+N/Users/alexdr/Programming/IPhone/TapsPerMinute/build/Debug-iphoneos/TapsPerMinute.app/Info.plist
+t1301246975
+s840
+
+N/Users/alexdr/Programming/IPhone/TapsPerMinute/build/Debug-iphoneos/TapsPerMinute.app/MainWindow.nib
+t1301246980
+s1135
+
+N/Users/alexdr/Programming/IPhone/TapsPerMinute/build/Debug-iphoneos/TapsPerMinute.app/PkgInfo
+t1301246975
+s8
+
+N/Users/alexdr/Programming/IPhone/TapsPerMinute/build/Debug-iphoneos/TapsPerMinute.app/ResourceRules.plist
+t1301246976
+s485
+
+N/Users/alexdr/Programming/IPhone/TapsPerMinute/build/Debug-iphoneos/TapsPerMinute.app/TPMMenu.nib
+t1301246981
+s3450
+
+N/Users/alexdr/Programming/IPhone/TapsPerMinute/build/Debug-iphoneos/TapsPerMinute.app/TPMViewController.nib
+t1301246981
+s1922
+
+N/Users/alexdr/Programming/IPhone/TapsPerMinute/build/Debug-iphoneos/TapsPerMinute.app/TapsPerMinute
+t2
+s0
+
+N/Users/alexdr/Programming/IPhone/TapsPerMinute/build/Debug-iphoneos/TapsPerMinute.app/TapsPerMinuteViewController.nib
+t1301246980
+s795
+
+N/Users/alexdr/Programming/IPhone/TapsPerMinute/build/Debug-iphoneos/TapsPerMinute.app/Thing.png
+t1301246983
+s3684
+
+N/Users/alexdr/Programming/IPhone/TapsPerMinute/build/Debug-iphoneos/TapsPerMinute.app/embedded.mobileprovision
+t1301246992
+s7181
+
+N/Users/alexdr/Programming/IPhone/TapsPerMinute/build/TapsPerMinute.build/Debug-iphoneos/TapsPerMinute.build/Objects-normal/armv6/TPMMenu.o
+t1301246991
+s62248
+
+N/Users/alexdr/Programming/IPhone/TapsPerMinute/build/TapsPerMinute.build/Debug-iphoneos/TapsPerMinute.build/Objects-normal/armv6/TPMViewController.o
+t1301246992
+s60772
+
+N/Users/alexdr/Programming/IPhone/TapsPerMinute/build/TapsPerMinute.build/Debug-iphoneos/TapsPerMinute.build/Objects-normal/armv6/TapsPerMinute
+t2
+s0
+
+N/Users/alexdr/Programming/IPhone/TapsPerMinute/build/TapsPerMinute.build/Debug-iphoneos/TapsPerMinute.build/Objects-normal/armv6/TapsPerMinute.LinkFileList
+c000000004D8F73FF00000000000002E3
+t1301246975
+s739
+
+N/Users/alexdr/Programming/IPhone/TapsPerMinute/build/TapsPerMinute.build/Debug-iphoneos/TapsPerMinute.build/Objects-normal/armv6/TapsPerMinuteAppDelegate.o
+t2
+s0
+
+N/Users/alexdr/Programming/IPhone/TapsPerMinute/build/TapsPerMinute.build/Debug-iphoneos/TapsPerMinute.build/Objects-normal/armv6/TapsPerMinuteViewController.o
+t2
+s0
+
+N/Users/alexdr/Programming/IPhone/TapsPerMinute/build/TapsPerMinute.build/Debug-iphoneos/TapsPerMinute.build/Objects-normal/armv6/main.o
+t1301246991
+s6464
+
+N/Users/alexdr/Programming/IPhone/TapsPerMinute/build/TapsPerMinute.build/Debug-iphoneos/TapsPerMinute.build/Objects-normal/armv7/TPMMenu.o
+t1301246992
+s61480
+
+N/Users/alexdr/Programming/IPhone/TapsPerMinute/build/TapsPerMinute.build/Debug-iphoneos/TapsPerMinute.build/Objects-normal/armv7/TPMViewController.o
+t1301246992
+s59456
+
+N/Users/alexdr/Programming/IPhone/TapsPerMinute/build/TapsPerMinute.build/Debug-iphoneos/TapsPerMinute.build/Objects-normal/armv7/TapsPerMinute
+t2
+s0
+
+N/Users/alexdr/Programming/IPhone/TapsPerMinute/build/TapsPerMinute.build/Debug-iphoneos/TapsPerMinute.build/Objects-normal/armv7/TapsPerMinute.LinkFileList
+c000000004D8F73FF00000000000002E3
+t1301246975
+s739
+
+N/Users/alexdr/Programming/IPhone/TapsPerMinute/build/TapsPerMinute.build/Debug-iphoneos/TapsPerMinute.build/Objects-normal/armv7/TapsPerMinuteAppDelegate.o
+t2
+s0
+
+N/Users/alexdr/Programming/IPhone/TapsPerMinute/build/TapsPerMinute.build/Debug-iphoneos/TapsPerMinute.build/Objects-normal/armv7/TapsPerMinuteViewController.o
+t2
+s0
+
+N/Users/alexdr/Programming/IPhone/TapsPerMinute/build/TapsPerMinute.build/Debug-iphoneos/TapsPerMinute.build/Objects-normal/armv7/main.o
+t1301246992
+s6448
+
+N/Users/alexdr/Programming/IPhone/TapsPerMinute/build/TapsPerMinute.build/Debug-iphoneos/TapsPerMinute.build/TapsPerMinute.xcent
+t1301246992
+s432
+
+N/Users/alexdr/Programming/IPhone/TapsPerMinute/main.m
+c000000004D8F713E0000000000000173
+t1301246270
+s371
+i<UIKit/UIKit.h>
+
+N/var/folders/NM/NMHDNzHiFLiQxrEXEEVmLU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TapsPerMinute_Prefix-atvtvwhgqlumtfctdyitwhycqlgf/TapsPerMinute_Prefix.pch.gch
+t1301246991
+s10446552
+
+N/var/folders/NM/NMHDNzHiFLiQxrEXEEVmLU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TapsPerMinute_Prefix-guxieqfsamzfbpgclwdfkxgfavqi/TapsPerMinute_Prefix.pch.gch
+t1301246989
+s9983704
+
+NTapsPerMinute-Info.plist
+c000000004D8F73FF0000000000000396
+t1301246975
+s918
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies322939775#322939775#0(0"0(0#1#0"8631868544#0"0#
+
+CCodeSign /Users/alexdr/Programming/IPhone/TapsPerMinute/build/Debug-iphoneos/TapsPerMinute.app
+r0
+
+CCompileC build/TapsPerMinute.build/Debug-iphoneos/TapsPerMinute.build/Objects-normal/armv6/TPMMenu.o /Users/alexdr/Programming/IPhone/TapsPerMinute/../TPM/Classes/TPMMenu.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s322939791.674236
+e322939791.824963
+r1
+xCompileC
+xbuild/TapsPerMinute.build/Debug-iphoneos/TapsPerMinute.build/Objects-normal/armv6/TPMMenu.o
+x/Users/alexdr/Programming/IPhone/TapsPerMinute/../TPM/Classes/TPMMenu.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/alexdr/Programming/IPhone/TapsPerMinute/../TPM/Classes/TPMMenu.m: In function '-[TPMMenu touchesMoved:withEvent:]':
+o/Users/alexdr/Programming/IPhone/TapsPerMinute/../TPM/Classes/TPMMenu.m:70: warning: no '-switchViews' method found
+o/Users/alexdr/Programming/IPhone/TapsPerMinute/../TPM/Classes/TPMMenu.m:70: warning: (Messages without a matching method signature
+o/Users/alexdr/Programming/IPhone/TapsPerMinute/../TPM/Classes/TPMMenu.m:70: warning: will be assumed to return 'id' and accept
+o/Users/alexdr/Programming/IPhone/TapsPerMinute/../TPM/Classes/TPMMenu.m:70: warning: '...' as arguments.)
+lSLF07#2@79"Compile /Users/alexdr/Programming/IPhone/TapsPerMinute/../TPM/Classes/TPMMenu.m322939791#322939791#0(603"/Users/alexdr/Programming/IPhone/TapsPerMinute/../TPM/Classes/TPMMenu.m: In function '-[TPMMenu touchesMoved:withEvent:]':/Users/alexdr/Programming/IPhone/TapsPerMinute/../TPM/Classes/TPMMenu.m:70: warning: no '-switchViews' method found/Users/alexdr/Programming/IPhone/TapsPerMinute/../TPM/Classes/TPMMenu.m:70: warning: (Messages without a matching method signature/Users/alexdr/Programming/IPhone/TapsPerMinute/../TPM/Classes/TPMMenu.m:70: warning: will be assumed to return 'id' and accept/Users/alexdr/Programming/IPhone/TapsPerMinute/../TPM/Classes/TPMMenu.m:70: warning: '...' as arguments.)2(22@30"No '-switchViews' method found322939791#123#116#0(6@71"/Users/alexdr/Programming/IPhone/TapsPerMinute/../TPM/Classes/TPMMenu.m322939775#70#0#70#0#19"no '*' method found0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)322939791#239#131#0(6@71"/Users/alexdr/Programming/IPhone/TapsPerMinute/../TPM/Classes/TPMMenu.m322939775#70#0#70#0#0"0(0#0#71"/Users/alexdr/Programming/IPhone/TapsPerMinute/../TPM/Classes/TPMMenu.m8629400448#1953"    cd /Users/alexdr/Programming/IPhone/TapsPerMinute    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/alexdr/Programming/IPhone/TapsPerMinute/build/TapsPerMinute.build/Debug-iphoneos/TapsPerMinute.build/TapsPerMinute-generated-files.hmap -I/Users/alexdr/Programming/IPhone/TapsPerMinute/build/TapsPerMinute.build/Debug-iphoneos/TapsPerMinute.build/TapsPerMinute-own-target-headers.hmap -I/Users/alexdr/Programming/IPhone/TapsPerMinute/build/TapsPerMinute.build/Debug-iphoneos/TapsPerMinute.build/TapsPerMinute-all-target-headers.hmap -iquote /Users/alexdr/Programming/IPhone/TapsPerMinute/build/TapsPerMinute.build/Debug-iphoneos/TapsPerMinute.build/TapsPerMinute-project-headers.hmap -F/Users/alexdr/Programming/IPhone/TapsPerMinute/build/Debug-iphoneos -I/Users/alexdr/Programming/IPhone/TapsPerMinute/build/Debug-iphoneos/include -I/Users/alexdr/Programming/IPhone/TapsPerMinute/build/TapsPerMinute.build/Debug-iphoneos/TapsPerMinute.build/DerivedSources/armv6 -I/Users/alexdr/Programming/IPhone/TapsPerMinute/build/TapsPerMinute.build/Debug-iphoneos/TapsPerMinute.build/DerivedSources -include /var/folders/NM/NMHDNzHiFLiQxrEXEEVmLU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TapsPerMinute_Prefix-guxieqfsamzfbpgclwdfkxgfavqi/TapsPerMinute_Prefix.pch -c /Users/alexdr/Programming/IPhone/TapsPerMinute/../TPM/Classes/TPMMenu.m -o /Users/alexdr/Programming/IPhone/TapsPerMinute/build/TapsPerMinute.build/Debug-iphoneos/TapsPerMinute.build/Objects-normal/armv6/TPMMenu.o0#
+
+CCompileC build/TapsPerMinute.build/Debug-iphoneos/TapsPerMinute.build/Objects-normal/armv6/TPMViewController.o /Users/alexdr/Programming/IPhone/TapsPerMinute/../TPM/Classes/TPMViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s322939791.825098
+e322939792.031993
+r1
+xCompileC
+xbuild/TapsPerMinute.build/Debug-iphoneos/TapsPerMinute.build/Objects-normal/armv6/TPMViewController.o
+x/Users/alexdr/Programming/IPhone/TapsPerMinute/../TPM/Classes/TPMViewController.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@89"Compile /Users/alexdr/Programming/IPhone/TapsPerMinute/../TPM/Classes/TPMViewController.m322939791#322939792#0(0"0(0#0#81"/Users/alexdr/Programming/IPhone/TapsPerMinute/../TPM/Classes/TPMViewController.m8627912096#1973"    cd /Users/alexdr/Programming/IPhone/TapsPerMinute    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/alexdr/Programming/IPhone/TapsPerMinute/build/TapsPerMinute.build/Debug-iphoneos/TapsPerMinute.build/TapsPerMinute-generated-files.hmap -I/Users/alexdr/Programming/IPhone/TapsPerMinute/build/TapsPerMinute.build/Debug-iphoneos/TapsPerMinute.build/TapsPerMinute-own-target-headers.hmap -I/Users/alexdr/Programming/IPhone/TapsPerMinute/build/TapsPerMinute.build/Debug-iphoneos/TapsPerMinute.build/TapsPerMinute-all-target-headers.hmap -iquote /Users/alexdr/Programming/IPhone/TapsPerMinute/build/TapsPerMinute.build/Debug-iphoneos/TapsPerMinute.build/TapsPerMinute-project-headers.hmap -F/Users/alexdr/Programming/IPhone/TapsPerMinute/build/Debug-iphoneos -I/Users/alexdr/Programming/IPhone/TapsPerMinute/build/Debug-iphoneos/include -I/Users/alexdr/Programming/IPhone/TapsPerMinute/build/TapsPerMinute.build/Debug-iphoneos/TapsPerMinute.build/DerivedSources/armv6 -I/Users/alexdr/Programming/IPhone/TapsPerMinute/build/TapsPerMinute.build/Debug-iphoneos/TapsPerMinute.build/DerivedSources -include /var/folders/NM/NMHDNzHiFLiQxrEXEEVmLU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TapsPerMinute_Prefix-guxieqfsamzfbpgclwdfkxgfavqi/TapsPerMinute_Prefix.pch -c /Users/alexdr/Programming/IPhone/TapsPerMinute/../TPM/Classes/TPMViewController.m -o /Users/alexdr/Programming/IPhone/TapsPerMinute/build/TapsPerMinute.build/Debug-iphoneos/TapsPerMinute.build/Objects-normal/armv6/TPMViewController.o0#
+
+CCompileC build/TapsPerMinute.build/Debug-iphoneos/TapsPerMinute.build/Objects-normal/armv6/TapsPerMinuteAppDelegate.o /Users/alexdr/Programming/IPhone/TapsPerMinute/Classes/TapsPerMinuteAppDelegate.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s322939791.614392
+e322939791.644863
+r0
+xCompileC
+xbuild/TapsPerMinute.build/Debug-iphoneos/TapsPerMinute.build/Objects-normal/armv6/TapsPerMinuteAppDelegate.o
+x/Users/alexdr/Programming/IPhone/TapsPerMinute/Classes/TapsPerMinuteAppDelegate.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+oIn file included from /Users/alexdr/Programming/IPhone/TapsPerMinute/Classes/TapsPerMinuteAppDelegate.m:10:
+o/Users/alexdr/Programming/IPhone/TapsPerMinute/Classes/TapsPerMinuteViewController.h:11: error: expected ';' before 'class'
+o/Users/alexdr/Programming/IPhone/TapsPerMinute/Classes/TapsPerMinuteViewController.h:17: fatal error: property declaration not in @interface or @implementation context
+ocompilation terminated.
+o{standard input}:38:FATAL:.abort  detected.  Assembly stopping.
+lSLF07#2@89"Compile /Users/alexdr/Programming/IPhone/TapsPerMinute/Classes/TapsPerMinuteAppDelegate.m322939791#322939791#0(488"In file included from /Users/alexdr/Programming/IPhone/TapsPerMinute/Classes/TapsPerMinuteAppDelegate.m:10:/Users/alexdr/Programming/IPhone/TapsPerMinute/Classes/TapsPerMinuteViewController.h:11: error: expected ';' before 'class'/Users/alexdr/Programming/IPhone/TapsPerMinute/Classes/TapsPerMinuteViewController.h:17: fatal error: property declaration not in @interface or @implementation contextcompilation terminated.{standard input}:38:FATAL:.abort  detected.  Assembly stopping.2(4@27"Expected ';' before 'class'322939791#108#124#2(7@103"In file included from /Users/alexdr/Programming/IPhone/TapsPerMinute/Classes/TapsPerMinuteAppDelegate.m322939791#18446744073709551615#0#0(6@81"/Users/alexdr/Programming/IPhone/TapsPerMinute/Classes/TapsPerMinuteAppDelegate.m322939070#10#0#10#0#0"0(13@115"Expected ';' before 'class' in /Users/alexdr/Programming/IPhone/TapsPerMinute/Classes/TapsPerMinuteViewController.h322939791#18446744073709551615#0#0(6@84"/Users/alexdr/Programming/IPhone/TapsPerMinute/Classes/TapsPerMinuteViewController.h322939775#11#0#11#0#0"0(6@84"/Users/alexdr/Programming/IPhone/TapsPerMinute/Classes/TapsPerMinuteViewController.h322939775#11#0#11#0#19"expected * before *0(4@65"Property declaration not in @interface or @implementation context322939791#232#168#2(7@103"In file included from /Users/alexdr/Programming/IPhone/TapsPerMinute/Classes/TapsPerMinuteAppDelegate.m322939791#18446744073709551615#0#0(6@81"/Users/alexdr/Programming/IPhone/TapsPerMinute/Classes/TapsPerMinuteAppDelegate.m322939070#10#0#10#0#0"0(13@153"Property declaration not in @interface or @implementation context in /Users/alexdr/Programming/IPhone/TapsPerMinute/Classes/TapsPerMinuteViewController.h322939791#18446744073709551615#0#0(6@84"/Users/alexdr/Programming/IPhone/TapsPerMinute/Classes/TapsPerMinuteViewController.h322939775#17#0#17#0#0"0(6@84"/Users/alexdr/Programming/IPhone/TapsPerMinute/Classes/TapsPerMinuteViewController.h322939775#17#0#17#0#0"0(0#0#81"/Users/alexdr/Programming/IPhone/TapsPerMinute/Classes/TapsPerMinuteAppDelegate.m8631458304#1980"    cd /Users/alexdr/Programming/IPhone/TapsPerMinute    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/alexdr/Programming/IPhone/TapsPerMinute/build/TapsPerMinute.build/Debug-iphoneos/TapsPerMinute.build/TapsPerMinute-generated-files.hmap -I/Users/alexdr/Programming/IPhone/TapsPerMinute/build/TapsPerMinute.build/Debug-iphoneos/TapsPerMinute.build/TapsPerMinute-own-target-headers.hmap -I/Users/alexdr/Programming/IPhone/TapsPerMinute/build/TapsPerMinute.build/Debug-iphoneos/TapsPerMinute.build/TapsPerMinute-all-target-headers.hmap -iquote /Users/alexdr/Programming/IPhone/TapsPerMinute/build/TapsPerMinute.build/Debug-iphoneos/TapsPerMinute.build/TapsPerMinute-project-headers.hmap -F/Users/alexdr/Programming/IPhone/TapsPerMinute/build/Debug-iphoneos -I/Users/alexdr/Programming/IPhone/TapsPerMinute/build/Debug-iphoneos/include -I/Users/alexdr/Programming/IPhone/TapsPerMinute/build/TapsPerMinute.build/Debug-iphoneos/TapsPerMinute.build/DerivedSources/armv6 -I/Users/alexdr/Programming/IPhone/TapsPerMinute/build/TapsPerMinute.build/Debug-iphoneos/TapsPerMinute.build/DerivedSources -include /var/folders/NM/NMHDNzHiFLiQxrEXEEVmLU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TapsPerMinute_Prefix-guxieqfsamzfbpgclwdfkxgfavqi/TapsPerMinute_Prefix.pch -c /Users/alexdr/Programming/IPhone/TapsPerMinute/Classes/TapsPerMinuteAppDelegate.m -o /Users/alexdr/Programming/IPhone/TapsPerMinute/build/TapsPerMinute.build/Debug-iphoneos/TapsPerMinute.build/Objects-normal/armv6/TapsPerMinuteAppDelegate.o1#
+
+CCompileC build/TapsPerMinute.build/Debug-iphoneos/TapsPerMinute.build/Objects-normal/armv6/TapsPerMinuteViewController.o /Users/alexdr/Programming/IPhone/TapsPerMinute/Classes/TapsPerMinuteViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s322939791.644970
+e322939791.674120
+r0
+xCompileC
+xbuild/TapsPerMinute.build/Debug-iphoneos/TapsPerMinute.build/Objects-normal/armv6/TapsPerMinuteViewController.o
+x/Users/alexdr/Programming/IPhone/TapsPerMinute/Classes/TapsPerMinuteViewController.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+oIn file included from /Users/alexdr/Programming/IPhone/TapsPerMinute/Classes/TapsPerMinuteViewController.m:9:
+o/Users/alexdr/Programming/IPhone/TapsPerMinute/Classes/TapsPerMinuteViewController.h:11: error: expected ';' before 'class'
+o/Users/alexdr/Programming/IPhone/TapsPerMinute/Classes/TapsPerMinuteViewController.h:17: fatal error: property declaration not in @interface or @implementation context
+ocompilation terminated.
+o{standard input}:38:FATAL:.abort  detected.  Assembly stopping.
+lSLF07#2@92"Compile /Users/alexdr/Programming/IPhone/TapsPerMinute/Classes/TapsPerMinuteViewController.m322939791#322939791#0(490"In file included from /Users/alexdr/Programming/IPhone/TapsPerMinute/Classes/TapsPerMinuteViewController.m:9:/Users/alexdr/Programming/IPhone/TapsPerMinute/Classes/TapsPerMinuteViewController.h:11: error: expected ';' before 'class'/Users/alexdr/Programming/IPhone/TapsPerMinute/Classes/TapsPerMinuteViewController.h:17: fatal error: property declaration not in @interface or @implementation contextcompilation terminated.{standard input}:38:FATAL:.abort  detected.  Assembly stopping.2(4@27"Expected ';' before 'class'322939791#110#124#2(7@106"In file included from /Users/alexdr/Programming/IPhone/TapsPerMinute/Classes/TapsPerMinuteViewController.m322939791#18446744073709551615#0#0(6@84"/Users/alexdr/Programming/IPhone/TapsPerMinute/Classes/TapsPerMinuteViewController.m322939775#9#0#9#0#0"0(13@115"Expected ';' before 'class' in /Users/alexdr/Programming/IPhone/TapsPerMinute/Classes/TapsPerMinuteViewController.h322939791#18446744073709551615#0#0(6@84"/Users/alexdr/Programming/IPhone/TapsPerMinute/Classes/TapsPerMinuteViewController.h322939775#11#0#11#0#0"0(6@84"/Users/alexdr/Programming/IPhone/TapsPerMinute/Classes/TapsPerMinuteViewController.h322939775#11#0#11#0#19"expected * before *0(4@65"Property declaration not in @interface or @implementation context322939791#234#168#2(7@106"In file included from /Users/alexdr/Programming/IPhone/TapsPerMinute/Classes/TapsPerMinuteViewController.m322939791#18446744073709551615#0#0(6@84"/Users/alexdr/Programming/IPhone/TapsPerMinute/Classes/TapsPerMinuteViewController.m322939775#9#0#9#0#0"0(13@153"Property declaration not in @interface or @implementation context in /Users/alexdr/Programming/IPhone/TapsPerMinute/Classes/TapsPerMinuteViewController.h322939791#18446744073709551615#0#0(6@84"/Users/alexdr/Programming/IPhone/TapsPerMinute/Classes/TapsPerMinuteViewController.h322939775#17#0#17#0#0"0(6@84"/Users/alexdr/Programming/IPhone/TapsPerMinute/Classes/TapsPerMinuteViewController.h322939775#17#0#17#0#0"0(0#0#84"/Users/alexdr/Programming/IPhone/TapsPerMinute/Classes/TapsPerMinuteViewController.m8630424000#1986"    cd /Users/alexdr/Programming/IPhone/TapsPerMinute    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/alexdr/Programming/IPhone/TapsPerMinute/build/TapsPerMinute.build/Debug-iphoneos/TapsPerMinute.build/TapsPerMinute-generated-files.hmap -I/Users/alexdr/Programming/IPhone/TapsPerMinute/build/TapsPerMinute.build/Debug-iphoneos/TapsPerMinute.build/TapsPerMinute-own-target-headers.hmap -I/Users/alexdr/Programming/IPhone/TapsPerMinute/build/TapsPerMinute.build/Debug-iphoneos/TapsPerMinute.build/TapsPerMinute-all-target-headers.hmap -iquote /Users/alexdr/Programming/IPhone/TapsPerMinute/build/TapsPerMinute.build/Debug-iphoneos/TapsPerMinute.build/TapsPerMinute-project-headers.hmap -F/Users/alexdr/Programming/IPhone/TapsPerMinute/build/Debug-iphoneos -I/Users/alexdr/Programming/IPhone/TapsPerMinute/build/Debug-iphoneos/include -I/Users/alexdr/Programming/IPhone/TapsPerMinute/build/TapsPerMinute.build/Debug-iphoneos/TapsPerMinute.build/DerivedSources/armv6 -I/Users/alexdr/Programming/IPhone/TapsPerMinute/build/TapsPerMinute.build/Debug-iphoneos/TapsPerMinute.build/DerivedSources -include /var/folders/NM/NMHDNzHiFLiQxrEXEEVmLU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TapsPerMinute_Prefix-guxieqfsamzfbpgclwdfkxgfavqi/TapsPerMinute_Prefix.pch -c /Users/alexdr/Programming/IPhone/TapsPerMinute/Classes/TapsPerMinuteViewController.m -o /Users/alexdr/Programming/IPhone/TapsPerMinute/build/TapsPerMinute.build/Debug-iphoneos/TapsPerMinute.build/Objects-normal/armv6/TapsPerMinuteViewController.o1#
+
+CCompileC build/TapsPerMinute.build/Debug-iphoneos/TapsPerMinute.build/Objects-normal/armv6/main.o /Users/alexdr/Programming/IPhone/TapsPerMinute/main.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s322939791.194077
+e322939791.614273
+r1
+xCompileC
+xbuild/TapsPerMinute.build/Debug-iphoneos/TapsPerMinute.build/Objects-normal/armv6/main.o
+x/Users/alexdr/Programming/IPhone/TapsPerMinute/main.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@61"Compile /Users/alexdr/Programming/IPhone/TapsPerMinute/main.m322939791#322939791#0(0"0(0#0#53"/Users/alexdr/Programming/IPhone/TapsPerMinute/main.m8626522752#1932"    cd /Users/alexdr/Programming/IPhone/TapsPerMinute    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/alexdr/Programming/IPhone/TapsPerMinute/build/TapsPerMinute.build/Debug-iphoneos/TapsPerMinute.build/TapsPerMinute-generated-files.hmap -I/Users/alexdr/Programming/IPhone/TapsPerMinute/build/TapsPerMinute.build/Debug-iphoneos/TapsPerMinute.build/TapsPerMinute-own-target-headers.hmap -I/Users/alexdr/Programming/IPhone/TapsPerMinute/build/TapsPerMinute.build/Debug-iphoneos/TapsPerMinute.build/TapsPerMinute-all-target-headers.hmap -iquote /Users/alexdr/Programming/IPhone/TapsPerMinute/build/TapsPerMinute.build/Debug-iphoneos/TapsPerMinute.build/TapsPerMinute-project-headers.hmap -F/Users/alexdr/Programming/IPhone/TapsPerMinute/build/Debug-iphoneos -I/Users/alexdr/Programming/IPhone/TapsPerMinute/build/Debug-iphoneos/include -I/Users/alexdr/Programming/IPhone/TapsPerMinute/build/TapsPerMinute.build/Debug-iphoneos/TapsPerMinute.build/DerivedSources/armv6 -I/Users/alexdr/Programming/IPhone/TapsPerMinute/build/TapsPerMinute.build/Debug-iphoneos/TapsPerMinute.build/DerivedSources -include /var/folders/NM/NMHDNzHiFLiQxrEXEEVmLU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TapsPerMinute_Prefix-guxieqfsamzfbpgclwdfkxgfavqi/TapsPerMinute_Prefix.pch -c /Users/alexdr/Programming/IPhone/TapsPerMinute/main.m -o /Users/alexdr/Programming/IPhone/TapsPerMinute/build/TapsPerMinute.build/Debug-iphoneos/TapsPerMinute.build/Objects-normal/armv6/main.o0#
+
+CCompileC build/TapsPerMinute.build/Debug-iphoneos/TapsPerMinute.build/Objects-normal/armv7/TPMMenu.o /Users/alexdr/Programming/IPhone/TapsPerMinute/../TPM/Classes/TPMMenu.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s322939792.234293
+e322939792.399669
+r1
+xCompileC
+xbuild/TapsPerMinute.build/Debug-iphoneos/TapsPerMinute.build/Objects-normal/armv7/TPMMenu.o
+x/Users/alexdr/Programming/IPhone/TapsPerMinute/../TPM/Classes/TPMMenu.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/alexdr/Programming/IPhone/TapsPerMinute/../TPM/Classes/TPMMenu.m: In function '-[TPMMenu touchesMoved:withEvent:]':
+o/Users/alexdr/Programming/IPhone/TapsPerMinute/../TPM/Classes/TPMMenu.m:70: warning: no '-switchViews' method found
+o/Users/alexdr/Programming/IPhone/TapsPerMinute/../TPM/Classes/TPMMenu.m:70: warning: (Messages without a matching method signature
+o/Users/alexdr/Programming/IPhone/TapsPerMinute/../TPM/Classes/TPMMenu.m:70: warning: will be assumed to return 'id' and accept
+o/Users/alexdr/Programming/IPhone/TapsPerMinute/../TPM/Classes/TPMMenu.m:70: warning: '...' as arguments.)
+lSLF07#2@79"Compile /Users/alexdr/Programming/IPhone/TapsPerMinute/../TPM/Classes/TPMMenu.m322939792#322939792#0(603"/Users/alexdr/Programming/IPhone/TapsPerMinute/../TPM/Classes/TPMMenu.m: In function '-[TPMMenu touchesMoved:withEvent:]':/Users/alexdr/Programming/IPhone/TapsPerMinute/../TPM/Classes/TPMMenu.m:70: warning: no '-switchViews' method found/Users/alexdr/Programming/IPhone/TapsPerMinute/../TPM/Classes/TPMMenu.m:70: warning: (Messages without a matching method signature/Users/alexdr/Programming/IPhone/TapsPerMinute/../TPM/Classes/TPMMenu.m:70: warning: will be assumed to return 'id' and accept/Users/alexdr/Programming/IPhone/TapsPerMinute/../TPM/Classes/TPMMenu.m:70: warning: '...' as arguments.)2(22@30"No '-switchViews' method found322939792#123#116#0(6@71"/Users/alexdr/Programming/IPhone/TapsPerMinute/../TPM/Classes/TPMMenu.m322939775#70#0#70#0#19"no '*' method found0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)322939792#239#131#0(6@71"/Users/alexdr/Programming/IPhone/TapsPerMinute/../TPM/Classes/TPMMenu.m322939775#70#0#70#0#0"0(0#0#71"/Users/alexdr/Programming/IPhone/TapsPerMinute/../TPM/Classes/TPMMenu.m8628599424#1953"    cd /Users/alexdr/Programming/IPhone/TapsPerMinute    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/alexdr/Programming/IPhone/TapsPerMinute/build/TapsPerMinute.build/Debug-iphoneos/TapsPerMinute.build/TapsPerMinute-generated-files.hmap -I/Users/alexdr/Programming/IPhone/TapsPerMinute/build/TapsPerMinute.build/Debug-iphoneos/TapsPerMinute.build/TapsPerMinute-own-target-headers.hmap -I/Users/alexdr/Programming/IPhone/TapsPerMinute/build/TapsPerMinute.build/Debug-iphoneos/TapsPerMinute.build/TapsPerMinute-all-target-headers.hmap -iquote /Users/alexdr/Programming/IPhone/TapsPerMinute/build/TapsPerMinute.build/Debug-iphoneos/TapsPerMinute.build/TapsPerMinute-project-headers.hmap -F/Users/alexdr/Programming/IPhone/TapsPerMinute/build/Debug-iphoneos -I/Users/alexdr/Programming/IPhone/TapsPerMinute/build/Debug-iphoneos/include -I/Users/alexdr/Programming/IPhone/TapsPerMinute/build/TapsPerMinute.build/Debug-iphoneos/TapsPerMinute.build/DerivedSources/armv7 -I/Users/alexdr/Programming/IPhone/TapsPerMinute/build/TapsPerMinute.build/Debug-iphoneos/TapsPerMinute.build/DerivedSources -include /var/folders/NM/NMHDNzHiFLiQxrEXEEVmLU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TapsPerMinute_Prefix-atvtvwhgqlumtfctdyitwhycqlgf/TapsPerMinute_Prefix.pch -c /Users/alexdr/Programming/IPhone/TapsPerMinute/../TPM/Classes/TPMMenu.m -o /Users/alexdr/Programming/IPhone/TapsPerMinute/build/TapsPerMinute.build/Debug-iphoneos/TapsPerMinute.build/Objects-normal/armv7/TPMMenu.o0#
+
+CCompileC build/TapsPerMinute.build/Debug-iphoneos/TapsPerMinute.build/Objects-normal/armv7/TPMViewController.o /Users/alexdr/Programming/IPhone/TapsPerMinute/../TPM/Classes/TPMViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s322939792.399776
+e322939792.520117
+r1
+xCompileC
+xbuild/TapsPerMinute.build/Debug-iphoneos/TapsPerMinute.build/Objects-normal/armv7/TPMViewController.o
+x/Users/alexdr/Programming/IPhone/TapsPerMinute/../TPM/Classes/TPMViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@89"Compile /Users/alexdr/Programming/IPhone/TapsPerMinute/../TPM/Classes/TPMViewController.m322939792#322939792#0(0"0(0#0#81"/Users/alexdr/Programming/IPhone/TapsPerMinute/../TPM/Classes/TPMViewController.m8627331840#1973"    cd /Users/alexdr/Programming/IPhone/TapsPerMinute    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/alexdr/Programming/IPhone/TapsPerMinute/build/TapsPerMinute.build/Debug-iphoneos/TapsPerMinute.build/TapsPerMinute-generated-files.hmap -I/Users/alexdr/Programming/IPhone/TapsPerMinute/build/TapsPerMinute.build/Debug-iphoneos/TapsPerMinute.build/TapsPerMinute-own-target-headers.hmap -I/Users/alexdr/Programming/IPhone/TapsPerMinute/build/TapsPerMinute.build/Debug-iphoneos/TapsPerMinute.build/TapsPerMinute-all-target-headers.hmap -iquote /Users/alexdr/Programming/IPhone/TapsPerMinute/build/TapsPerMinute.build/Debug-iphoneos/TapsPerMinute.build/TapsPerMinute-project-headers.hmap -F/Users/alexdr/Programming/IPhone/TapsPerMinute/build/Debug-iphoneos -I/Users/alexdr/Programming/IPhone/TapsPerMinute/build/Debug-iphoneos/include -I/Users/alexdr/Programming/IPhone/TapsPerMinute/build/TapsPerMinute.build/Debug-iphoneos/TapsPerMinute.build/DerivedSources/armv7 -I/Users/alexdr/Programming/IPhone/TapsPerMinute/build/TapsPerMinute.build/Debug-iphoneos/TapsPerMinute.build/DerivedSources -include /var/folders/NM/NMHDNzHiFLiQxrEXEEVmLU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TapsPerMinute_Prefix-atvtvwhgqlumtfctdyitwhycqlgf/TapsPerMinute_Prefix.pch -c /Users/alexdr/Programming/IPhone/TapsPerMinute/../TPM/Classes/TPMViewController.m -o /Users/alexdr/Programming/IPhone/TapsPerMinute/build/TapsPerMinute.build/Debug-iphoneos/TapsPerMinute.build/Objects-normal/armv7/TPMViewController.o0#
+
+CCompileC build/TapsPerMinute.build/Debug-iphoneos/TapsPerMinute.build/Objects-normal/armv7/TapsPerMinuteAppDelegate.o /Users/alexdr/Programming/IPhone/TapsPerMinute/Classes/TapsPerMinuteAppDelegate.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s322939792.163631
+e322939792.202218
+r0
+xCompileC
+xbuild/TapsPerMinute.build/Debug-iphoneos/TapsPerMinute.build/Objects-normal/armv7/TapsPerMinuteAppDelegate.o
+x/Users/alexdr/Programming/IPhone/TapsPerMinute/Classes/TapsPerMinuteAppDelegate.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+oIn file included from /Users/alexdr/Programming/IPhone/TapsPerMinute/Classes/TapsPerMinuteAppDelegate.m:10:
+o/Users/alexdr/Programming/IPhone/TapsPerMinute/Classes/TapsPerMinuteViewController.h:11: error: expected ';' before 'class'
+o/Users/alexdr/Programming/IPhone/TapsPerMinute/Classes/TapsPerMinuteViewController.h:17: fatal error: property declaration not in @interface or @implementation context
+ocompilation terminated.
+o{standard input}:39:FATAL:.abort  detected.  Assembly stopping.
+lSLF07#2@89"Compile /Users/alexdr/Programming/IPhone/TapsPerMinute/Classes/TapsPerMinuteAppDelegate.m322939792#322939792#0(488"In file included from /Users/alexdr/Programming/IPhone/TapsPerMinute/Classes/TapsPerMinuteAppDelegate.m:10:/Users/alexdr/Programming/IPhone/TapsPerMinute/Classes/TapsPerMinuteViewController.h:11: error: expected ';' before 'class'/Users/alexdr/Programming/IPhone/TapsPerMinute/Classes/TapsPerMinuteViewController.h:17: fatal error: property declaration not in @interface or @implementation contextcompilation terminated.{standard input}:39:FATAL:.abort  detected.  Assembly stopping.2(4@27"Expected ';' before 'class'322939792#108#124#2(7@103"In file included from /Users/alexdr/Programming/IPhone/TapsPerMinute/Classes/TapsPerMinuteAppDelegate.m322939792#18446744073709551615#0#0(6@81"/Users/alexdr/Programming/IPhone/TapsPerMinute/Classes/TapsPerMinuteAppDelegate.m322939070#10#0#10#0#0"0(13@115"Expected ';' before 'class' in /Users/alexdr/Programming/IPhone/TapsPerMinute/Classes/TapsPerMinuteViewController.h322939792#18446744073709551615#0#0(6@84"/Users/alexdr/Programming/IPhone/TapsPerMinute/Classes/TapsPerMinuteViewController.h322939775#11#0#11#0#0"0(6@84"/Users/alexdr/Programming/IPhone/TapsPerMinute/Classes/TapsPerMinuteViewController.h322939775#11#0#11#0#19"expected * before *0(4@65"Property declaration not in @interface or @implementation context322939792#232#168#2(7@103"In file included from /Users/alexdr/Programming/IPhone/TapsPerMinute/Classes/TapsPerMinuteAppDelegate.m322939792#18446744073709551615#0#0(6@81"/Users/alexdr/Programming/IPhone/TapsPerMinute/Classes/TapsPerMinuteAppDelegate.m322939070#10#0#10#0#0"0(13@153"Property declaration not in @interface or @implementation context in /Users/alexdr/Programming/IPhone/TapsPerMinute/Classes/TapsPerMinuteViewController.h322939792#18446744073709551615#0#0(6@84"/Users/alexdr/Programming/IPhone/TapsPerMinute/Classes/TapsPerMinuteViewController.h322939775#17#0#17#0#0"0(6@84"/Users/alexdr/Programming/IPhone/TapsPerMinute/Classes/TapsPerMinuteViewController.h322939775#17#0#17#0#0"0(0#0#81"/Users/alexdr/Programming/IPhone/TapsPerMinute/Classes/TapsPerMinuteAppDelegate.m8631237568#1980"    cd /Users/alexdr/Programming/IPhone/TapsPerMinute    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/alexdr/Programming/IPhone/TapsPerMinute/build/TapsPerMinute.build/Debug-iphoneos/TapsPerMinute.build/TapsPerMinute-generated-files.hmap -I/Users/alexdr/Programming/IPhone/TapsPerMinute/build/TapsPerMinute.build/Debug-iphoneos/TapsPerMinute.build/TapsPerMinute-own-target-headers.hmap -I/Users/alexdr/Programming/IPhone/TapsPerMinute/build/TapsPerMinute.build/Debug-iphoneos/TapsPerMinute.build/TapsPerMinute-all-target-headers.hmap -iquote /Users/alexdr/Programming/IPhone/TapsPerMinute/build/TapsPerMinute.build/Debug-iphoneos/TapsPerMinute.build/TapsPerMinute-project-headers.hmap -F/Users/alexdr/Programming/IPhone/TapsPerMinute/build/Debug-iphoneos -I/Users/alexdr/Programming/IPhone/TapsPerMinute/build/Debug-iphoneos/include -I/Users/alexdr/Programming/IPhone/TapsPerMinute/build/TapsPerMinute.build/Debug-iphoneos/TapsPerMinute.build/DerivedSources/armv7 -I/Users/alexdr/Programming/IPhone/TapsPerMinute/build/TapsPerMinute.build/Debug-iphoneos/TapsPerMinute.build/DerivedSources -include /var/folders/NM/NMHDNzHiFLiQxrEXEEVmLU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TapsPerMinute_Prefix-atvtvwhgqlumtfctdyitwhycqlgf/TapsPerMinute_Prefix.pch -c /Users/alexdr/Programming/IPhone/TapsPerMinute/Classes/TapsPerMinuteAppDelegate.m -o /Users/alexdr/Programming/IPhone/TapsPerMinute/build/TapsPerMinute.build/Debug-iphoneos/TapsPerMinute.build/Objects-normal/armv7/TapsPerMinuteAppDelegate.o1#
+
+CCompileC build/TapsPerMinute.build/Debug-iphoneos/TapsPerMinute.build/Objects-normal/armv7/TapsPerMinuteViewController.o /Users/alexdr/Programming/IPhone/TapsPerMinute/Classes/TapsPerMinuteViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s322939792.202332
+e322939792.234192
+r0
+xCompileC
+xbuild/TapsPerMinute.build/Debug-iphoneos/TapsPerMinute.build/Objects-normal/armv7/TapsPerMinuteViewController.o
+x/Users/alexdr/Programming/IPhone/TapsPerMinute/Classes/TapsPerMinuteViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+oIn file included from /Users/alexdr/Programming/IPhone/TapsPerMinute/Classes/TapsPerMinuteViewController.m:9:
+o/Users/alexdr/Programming/IPhone/TapsPerMinute/Classes/TapsPerMinuteViewController.h:11: error: expected ';' before 'class'
+o/Users/alexdr/Programming/IPhone/TapsPerMinute/Classes/TapsPerMinuteViewController.h:17: fatal error: property declaration not in @interface or @implementation context
+ocompilation terminated.
+o{standard input}:39:FATAL:.abort  detected.  Assembly stopping.
+lSLF07#2@92"Compile /Users/alexdr/Programming/IPhone/TapsPerMinute/Classes/TapsPerMinuteViewController.m322939792#322939792#0(490"In file included from /Users/alexdr/Programming/IPhone/TapsPerMinute/Classes/TapsPerMinuteViewController.m:9:/Users/alexdr/Programming/IPhone/TapsPerMinute/Classes/TapsPerMinuteViewController.h:11: error: expected ';' before 'class'/Users/alexdr/Programming/IPhone/TapsPerMinute/Classes/TapsPerMinuteViewController.h:17: fatal error: property declaration not in @interface or @implementation contextcompilation terminated.{standard input}:39:FATAL:.abort  detected.  Assembly stopping.2(4@27"Expected ';' before 'class'322939792#110#124#2(7@106"In file included from /Users/alexdr/Programming/IPhone/TapsPerMinute/Classes/TapsPerMinuteViewController.m322939792#18446744073709551615#0#0(6@84"/Users/alexdr/Programming/IPhone/TapsPerMinute/Classes/TapsPerMinuteViewController.m322939775#9#0#9#0#0"0(13@115"Expected ';' before 'class' in /Users/alexdr/Programming/IPhone/TapsPerMinute/Classes/TapsPerMinuteViewController.h322939792#18446744073709551615#0#0(6@84"/Users/alexdr/Programming/IPhone/TapsPerMinute/Classes/TapsPerMinuteViewController.h322939775#11#0#11#0#0"0(6@84"/Users/alexdr/Programming/IPhone/TapsPerMinute/Classes/TapsPerMinuteViewController.h322939775#11#0#11#0#19"expected * before *0(4@65"Property declaration not in @interface or @implementation context322939792#234#168#2(7@106"In file included from /Users/alexdr/Programming/IPhone/TapsPerMinute/Classes/TapsPerMinuteViewController.m322939792#18446744073709551615#0#0(6@84"/Users/alexdr/Programming/IPhone/TapsPerMinute/Classes/TapsPerMinuteViewController.m322939775#9#0#9#0#0"0(13@153"Property declaration not in @interface or @implementation context in /Users/alexdr/Programming/IPhone/TapsPerMinute/Classes/TapsPerMinuteViewController.h322939792#18446744073709551615#0#0(6@84"/Users/alexdr/Programming/IPhone/TapsPerMinute/Classes/TapsPerMinuteViewController.h322939775#17#0#17#0#0"0(6@84"/Users/alexdr/Programming/IPhone/TapsPerMinute/Classes/TapsPerMinuteViewController.h322939775#17#0#17#0#0"0(0#0#84"/Users/alexdr/Programming/IPhone/TapsPerMinute/Classes/TapsPerMinuteViewController.m8629133088#1986"    cd /Users/alexdr/Programming/IPhone/TapsPerMinute    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/alexdr/Programming/IPhone/TapsPerMinute/build/TapsPerMinute.build/Debug-iphoneos/TapsPerMinute.build/TapsPerMinute-generated-files.hmap -I/Users/alexdr/Programming/IPhone/TapsPerMinute/build/TapsPerMinute.build/Debug-iphoneos/TapsPerMinute.build/TapsPerMinute-own-target-headers.hmap -I/Users/alexdr/Programming/IPhone/TapsPerMinute/build/TapsPerMinute.build/Debug-iphoneos/TapsPerMinute.build/TapsPerMinute-all-target-headers.hmap -iquote /Users/alexdr/Programming/IPhone/TapsPerMinute/build/TapsPerMinute.build/Debug-iphoneos/TapsPerMinute.build/TapsPerMinute-project-headers.hmap -F/Users/alexdr/Programming/IPhone/TapsPerMinute/build/Debug-iphoneos -I/Users/alexdr/Programming/IPhone/TapsPerMinute/build/Debug-iphoneos/include -I/Users/alexdr/Programming/IPhone/TapsPerMinute/build/TapsPerMinute.build/Debug-iphoneos/TapsPerMinute.build/DerivedSources/armv7 -I/Users/alexdr/Programming/IPhone/TapsPerMinute/build/TapsPerMinute.build/Debug-iphoneos/TapsPerMinute.build/DerivedSources -include /var/folders/NM/NMHDNzHiFLiQxrEXEEVmLU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TapsPerMinute_Prefix-atvtvwhgqlumtfctdyitwhycqlgf/TapsPerMinute_Prefix.pch -c /Users/alexdr/Programming/IPhone/TapsPerMinute/Classes/TapsPerMinuteViewController.m -o /Users/alexdr/Programming/IPhone/TapsPerMinute/build/TapsPerMinute.build/Debug-iphoneos/TapsPerMinute.build/Objects-normal/armv7/TapsPerMinuteViewController.o1#
+
+CCompileC build/TapsPerMinute.build/Debug-iphoneos/TapsPerMinute.build/Objects-normal/armv7/main.o /Users/alexdr/Programming/IPhone/TapsPerMinute/main.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s322939792.032113
+e322939792.163480
+r1
+xCompileC
+xbuild/TapsPerMinute.build/Debug-iphoneos/TapsPerMinute.build/Objects-normal/armv7/main.o
+x/Users/alexdr/Programming/IPhone/TapsPerMinute/main.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@61"Compile /Users/alexdr/Programming/IPhone/TapsPerMinute/main.m322939792#322939792#0(0"0(0#0#53"/Users/alexdr/Programming/IPhone/TapsPerMinute/main.m8631722784#1932"    cd /Users/alexdr/Programming/IPhone/TapsPerMinute    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/alexdr/Programming/IPhone/TapsPerMinute/build/TapsPerMinute.build/Debug-iphoneos/TapsPerMinute.build/TapsPerMinute-generated-files.hmap -I/Users/alexdr/Programming/IPhone/TapsPerMinute/build/TapsPerMinute.build/Debug-iphoneos/TapsPerMinute.build/TapsPerMinute-own-target-headers.hmap -I/Users/alexdr/Programming/IPhone/TapsPerMinute/build/TapsPerMinute.build/Debug-iphoneos/TapsPerMinute.build/TapsPerMinute-all-target-headers.hmap -iquote /Users/alexdr/Programming/IPhone/TapsPerMinute/build/TapsPerMinute.build/Debug-iphoneos/TapsPerMinute.build/TapsPerMinute-project-headers.hmap -F/Users/alexdr/Programming/IPhone/TapsPerMinute/build/Debug-iphoneos -I/Users/alexdr/Programming/IPhone/TapsPerMinute/build/Debug-iphoneos/include -I/Users/alexdr/Programming/IPhone/TapsPerMinute/build/TapsPerMinute.build/Debug-iphoneos/TapsPerMinute.build/DerivedSources/armv7 -I/Users/alexdr/Programming/IPhone/TapsPerMinute/build/TapsPerMinute.build/Debug-iphoneos/TapsPerMinute.build/DerivedSources -include /var/folders/NM/NMHDNzHiFLiQxrEXEEVmLU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TapsPerMinute_Prefix-atvtvwhgqlumtfctdyitwhycqlgf/TapsPerMinute_Prefix.pch -c /Users/alexdr/Programming/IPhone/TapsPerMinute/main.m -o /Users/alexdr/Programming/IPhone/TapsPerMinute/build/TapsPerMinute.build/Debug-iphoneos/TapsPerMinute.build/Objects-normal/armv7/main.o0#
+
+CCompileXIB /Users/alexdr/Programming/IPhone/TapsPerMinute/../TPM/Classes/TPMMenu.xib
+s322939780.959782
+e322939781.993935
+r1
+xCompileXIB
+x/Users/alexdr/Programming/IPhone/TapsPerMinute/../TPM/Classes/TPMMenu.xib
+lSLF07#2@37"CompileXIB ../TPM/Classes/TPMMenu.xib322939780#322939781#0(0"0(0#0#73"/Users/alexdr/Programming/IPhone/TapsPerMinute/../TPM/Classes/TPMMenu.xib8629612160#581"    cd /Users/alexdr/Programming/IPhone/TapsPerMinute    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/alexdr/Programming/IPhone/TapsPerMinute/build/Debug-iphoneos/TapsPerMinute.app/TPMMenu.nib /Users/alexdr/Programming/IPhone/TapsPerMinute/../TPM/Classes/TPMMenu.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk0#
+
+CCompileXIB /Users/alexdr/Programming/IPhone/TapsPerMinute/../TPM/TPMViewController.xib
+s322939780.972172
+e322939781.950045
+r1
+xCompileXIB
+x/Users/alexdr/Programming/IPhone/TapsPerMinute/../TPM/TPMViewController.xib
+lSLF07#2@39"CompileXIB ../TPM/TPMViewController.xib322939780#322939781#0(0"0(0#0#75"/Users/alexdr/Programming/IPhone/TapsPerMinute/../TPM/TPMViewController.xib8629271488#593"    cd /Users/alexdr/Programming/IPhone/TapsPerMinute    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/alexdr/Programming/IPhone/TapsPerMinute/build/Debug-iphoneos/TapsPerMinute.app/TPMViewController.nib /Users/alexdr/Programming/IPhone/TapsPerMinute/../TPM/TPMViewController.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk0#
+
+CCompileXIB /Users/alexdr/Programming/IPhone/TapsPerMinute/MainWindow.xib
+s322939776.046742
+e322939780.972068
+r1
+xCompileXIB
+x/Users/alexdr/Programming/IPhone/TapsPerMinute/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib322939776#322939780#0(0"0(0#0#61"/Users/alexdr/Programming/IPhone/TapsPerMinute/MainWindow.xib27303562373955696#572"    cd /Users/alexdr/Programming/IPhone/TapsPerMinute    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/alexdr/Programming/IPhone/TapsPerMinute/build/Debug-iphoneos/TapsPerMinute.app/MainWindow.nib /Users/alexdr/Programming/IPhone/TapsPerMinute/MainWindow.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk0#
+
+CCompileXIB /Users/alexdr/Programming/IPhone/TapsPerMinute/TapsPerMinuteViewController.xib
+s322939776.047807
+e322939780.959578
+r1
+xCompileXIB
+x/Users/alexdr/Programming/IPhone/TapsPerMinute/TapsPerMinuteViewController.xib
+lSLF07#2@42"CompileXIB TapsPerMinuteViewController.xib322939776#322939780#0(0"0(0#0#78"/Users/alexdr/Programming/IPhone/TapsPerMinute/TapsPerMinuteViewController.xib8632031136#606"    cd /Users/alexdr/Programming/IPhone/TapsPerMinute    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/alexdr/Programming/IPhone/TapsPerMinute/build/Debug-iphoneos/TapsPerMinute.app/TapsPerMinuteViewController.nib /Users/alexdr/Programming/IPhone/TapsPerMinute/TapsPerMinuteViewController.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk0#
+
+CCopyPNGFile /Users/alexdr/Programming/IPhone/TapsPerMinute/build/Debug-iphoneos/TapsPerMinute.app/Default.png ../TPM/Default.png
+s322939781.994049
+e322939784.053230
+r1
+xCopyPNGFile
+x/Users/alexdr/Programming/IPhone/TapsPerMinute/build/Debug-iphoneos/TapsPerMinute.app/Default.png
+x../TPM/Default.png
+lSLF07#2@81"CopyPNGFile build/Debug-iphoneos/TapsPerMinute.app/Default.png ../TPM/Default.png322939781#322939784#0(0"0(0#0#65"/Users/alexdr/Programming/IPhone/TapsPerMinute/../TPM/Default.png8618556224#599"    cd /Users/alexdr/Programming/IPhone/TapsPerMinute    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/alexdr/Programming/IPhone/TapsPerMinute/../TPM/Default.png /Users/alexdr/Programming/IPhone/TapsPerMinute/build/Debug-iphoneos/TapsPerMinute.app/Default.png0#
+
+CCopyPNGFile /Users/alexdr/Programming/IPhone/TapsPerMinute/build/Debug-iphoneos/TapsPerMinute.app/Thing.png ../TPM/Thing.png
+s322939781.950147
+e322939783.578355
+r1
+xCopyPNGFile
+x/Users/alexdr/Programming/IPhone/TapsPerMinute/build/Debug-iphoneos/TapsPerMinute.app/Thing.png
+x../TPM/Thing.png
+lSLF07#2@77"CopyPNGFile build/Debug-iphoneos/TapsPerMinute.app/Thing.png ../TPM/Thing.png322939781#322939783#0(0"0(0#0#63"/Users/alexdr/Programming/IPhone/TapsPerMinute/../TPM/Thing.png8628287104#595"    cd /Users/alexdr/Programming/IPhone/TapsPerMinute    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/alexdr/Programming/IPhone/TapsPerMinute/../TPM/Thing.png /Users/alexdr/Programming/IPhone/TapsPerMinute/build/Debug-iphoneos/TapsPerMinute.app/Thing.png0#
+
+CCpResource build/Debug-iphoneos/TapsPerMinute.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
+s322939775.884580
+e322939776.046653
+r1
+xCpResource
+xbuild/Debug-iphoneos/TapsPerMinute.app/ResourceRules.plist
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
+lSLF07#2@94"Copy /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist322939775#322939776#0(0"0(0#0#89"/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist8629841472#516"    cd /Users/alexdr/Programming/IPhone/TapsPerMinute    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist /Users/alexdr/Programming/IPhone/TapsPerMinute/build/Debug-iphoneos/TapsPerMinute.app0#
+
+CCreateUniversalBinary /Users/alexdr/Programming/IPhone/TapsPerMinute/build/Debug-iphoneos/TapsPerMinute.app/TapsPerMinute normal "armv6 armv7"
+r0
+
+CGenerateDSYMFile /Users/alexdr/Programming/IPhone/TapsPerMinute/build/Debug-iphoneos/TapsPerMinute.app.dSYM /Users/alexdr/Programming/IPhone/TapsPerMinute/build/Debug-iphoneos/TapsPerMinute.app/TapsPerMinute
+r0
+
+CLd /Users/alexdr/Programming/IPhone/TapsPerMinute/build/TapsPerMinute.build/Debug-iphoneos/TapsPerMinute.build/Objects-normal/armv6/TapsPerMinute normal armv6
+r0
+
+CLd /Users/alexdr/Programming/IPhone/TapsPerMinute/build/TapsPerMinute.build/Debug-iphoneos/TapsPerMinute.build/Objects-normal/armv7/TapsPerMinute normal armv7
+r0
+
+CProcessInfoPlistFile /Users/alexdr/Programming/IPhone/TapsPerMinute/build/Debug-iphoneos/TapsPerMinute.app/Info.plist TapsPerMinute-Info.plist
+s322939775.910395
+e322939775.999382
+r1
+xProcessInfoPlistFile
+x/Users/alexdr/Programming/IPhone/TapsPerMinute/build/Debug-iphoneos/TapsPerMinute.app/Info.plist
+xTapsPerMinute-Info.plist
+lSLF07#2@32"Process TapsPerMinute-Info.plist322939775#322939775#0(0"0(0#0#71"/Users/alexdr/Programming/IPhone/TapsPerMinute/TapsPerMinute-Info.plist8629633216#618"    cd /Users/alexdr/Programming/IPhone/TapsPerMinute    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility TapsPerMinute-Info.plist -genpkginfo /Users/alexdr/Programming/IPhone/TapsPerMinute/build/Debug-iphoneos/TapsPerMinute.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile /Users/alexdr/Programming/IPhone/TapsPerMinute/build/Debug-iphoneos/TapsPerMinute.app/ResourceRules.plist -o /Users/alexdr/Programming/IPhone/TapsPerMinute/build/Debug-iphoneos/TapsPerMinute.app/Info.plist0#
+
+CProcessPCH /var/folders/NM/NMHDNzHiFLiQxrEXEEVmLU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TapsPerMinute_Prefix-atvtvwhgqlumtfctdyitwhycqlgf/TapsPerMinute_Prefix.pch.gch TapsPerMinute_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+s322939789.589685
+e322939791.193763
+r1
+xProcessPCH
+x/var/folders/NM/NMHDNzHiFLiQxrEXEEVmLU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TapsPerMinute_Prefix-atvtvwhgqlumtfctdyitwhycqlgf/TapsPerMinute_Prefix.pch.gch
+xTapsPerMinute_Prefix.pch
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@35"Precompile TapsPerMinute_Prefix.pch322939789#322939791#0(0"0(0#0#71"/Users/alexdr/Programming/IPhone/TapsPerMinute/TapsPerMinute_Prefix.pch8632147648#1816"    cd /Users/alexdr/Programming/IPhone/TapsPerMinute    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/alexdr/Programming/IPhone/TapsPerMinute/build/TapsPerMinute.build/Debug-iphoneos/TapsPerMinute.build/TapsPerMinute-generated-files.hmap -I/Users/alexdr/Programming/IPhone/TapsPerMinute/build/TapsPerMinute.build/Debug-iphoneos/TapsPerMinute.build/TapsPerMinute-own-target-headers.hmap -I/Users/alexdr/Programming/IPhone/TapsPerMinute/build/TapsPerMinute.build/Debug-iphoneos/TapsPerMinute.build/TapsPerMinute-all-target-headers.hmap -iquote /Users/alexdr/Programming/IPhone/TapsPerMinute/build/TapsPerMinute.build/Debug-iphoneos/TapsPerMinute.build/TapsPerMinute-project-headers.hmap -F/Users/alexdr/Programming/IPhone/TapsPerMinute/build/Debug-iphoneos -I/Users/alexdr/Programming/IPhone/TapsPerMinute/build/Debug-iphoneos/include -I/Users/alexdr/Programming/IPhone/TapsPerMinute/build/TapsPerMinute.build/Debug-iphoneos/TapsPerMinute.build/DerivedSources/armv7 -I/Users/alexdr/Programming/IPhone/TapsPerMinute/build/TapsPerMinute.build/Debug-iphoneos/TapsPerMinute.build/DerivedSources -c /Users/alexdr/Programming/IPhone/TapsPerMinute/TapsPerMinute_Prefix.pch -o /var/folders/NM/NMHDNzHiFLiQxrEXEEVmLU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TapsPerMinute_Prefix-atvtvwhgqlumtfctdyitwhycqlgf/TapsPerMinute_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/NM/NMHDNzHiFLiQxrEXEEVmLU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TapsPerMinute_Prefix-guxieqfsamzfbpgclwdfkxgfavqi/TapsPerMinute_Prefix.pch.gch TapsPerMinute_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+s322939784.053397
+e322939789.589392
+r1
+xProcessPCH
+x/var/folders/NM/NMHDNzHiFLiQxrEXEEVmLU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TapsPerMinute_Prefix-guxieqfsamzfbpgclwdfkxgfavqi/TapsPerMinute_Prefix.pch.gch
+xTapsPerMinute_Prefix.pch
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@35"Precompile TapsPerMinute_Prefix.pch322939784#322939789#0(0"0(0#0#71"/Users/alexdr/Programming/IPhone/TapsPerMinute/TapsPerMinute_Prefix.pch8632290656#1816"    cd /Users/alexdr/Programming/IPhone/TapsPerMinute    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/alexdr/Programming/IPhone/TapsPerMinute/build/TapsPerMinute.build/Debug-iphoneos/TapsPerMinute.build/TapsPerMinute-generated-files.hmap -I/Users/alexdr/Programming/IPhone/TapsPerMinute/build/TapsPerMinute.build/Debug-iphoneos/TapsPerMinute.build/TapsPerMinute-own-target-headers.hmap -I/Users/alexdr/Programming/IPhone/TapsPerMinute/build/TapsPerMinute.build/Debug-iphoneos/TapsPerMinute.build/TapsPerMinute-all-target-headers.hmap -iquote /Users/alexdr/Programming/IPhone/TapsPerMinute/build/TapsPerMinute.build/Debug-iphoneos/TapsPerMinute.build/TapsPerMinute-project-headers.hmap -F/Users/alexdr/Programming/IPhone/TapsPerMinute/build/Debug-iphoneos -I/Users/alexdr/Programming/IPhone/TapsPerMinute/build/Debug-iphoneos/include -I/Users/alexdr/Programming/IPhone/TapsPerMinute/build/TapsPerMinute.build/Debug-iphoneos/TapsPerMinute.build/DerivedSources/armv6 -I/Users/alexdr/Programming/IPhone/TapsPerMinute/build/TapsPerMinute.build/Debug-iphoneos/TapsPerMinute.build/DerivedSources -c /Users/alexdr/Programming/IPhone/TapsPerMinute/TapsPerMinute_Prefix.pch -o /var/folders/NM/NMHDNzHiFLiQxrEXEEVmLU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TapsPerMinute_Prefix-guxieqfsamzfbpgclwdfkxgfavqi/TapsPerMinute_Prefix.pch.gch0#
+
+CProcessProductPackaging "/Users/alexdr/Library/MobileDevice/Provisioning Profiles/F32208B8-1947-4AA5-AF0A-1289892DDCC7.mobileprovision" /Users/alexdr/Programming/IPhone/TapsPerMinute/build/Debug-iphoneos/TapsPerMinute.app/embedded.mobileprovision
+s322939792.520244
+e322939792.583314
+r1
+xProcessProductPackaging
+x/Users/alexdr/Library/MobileDevice/Provisioning Profiles/F32208B8-1947-4AA5-AF0A-1289892DDCC7.mobileprovision
+x/Users/alexdr/Programming/IPhone/TapsPerMinute/build/Debug-iphoneos/TapsPerMinute.app/embedded.mobileprovision
+lSLF07#2@199"ProcessProductPackaging "/Users/alexdr/Library/MobileDevice/Provisioning Profiles/F32208B8-1947-4AA5-AF0A-1289892DDCC7.mobileprovision" build/Debug-iphoneos/TapsPerMinute.app/embedded.mobileprovision322939792#322939792#0(0"0(0#0#110"/Users/alexdr/Programming/IPhone/TapsPerMinute/build/Debug-iphoneos/TapsPerMinute.app/embedded.mobileprovision8627906688#446"    cd /Users/alexdr/Programming/IPhone/TapsPerMinute    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> "/Users/alexdr/Library/MobileDevice/Provisioning Profiles/F32208B8-1947-4AA5-AF0A-1289892DDCC7.mobileprovision" -o /Users/alexdr/Programming/IPhone/TapsPerMinute/build/Debug-iphoneos/TapsPerMinute.app/embedded.mobileprovision0#
+
+CProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist /Users/alexdr/Programming/IPhone/TapsPerMinute/build/TapsPerMinute.build/Debug-iphoneos/TapsPerMinute.build/TapsPerMinute.xcent
+s322939792.583577
+e322939792.604450
+r1
+xProcessProductPackaging
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist
+x/Users/alexdr/Programming/IPhone/TapsPerMinute/build/TapsPerMinute.build/Debug-iphoneos/TapsPerMinute.build/TapsPerMinute.xcent
+lSLF07#2@193"ProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist build/TapsPerMinute.build/Debug-iphoneos/TapsPerMinute.build/TapsPerMinute.xcent322939792#322939792#0(0"0(0#0#127"/Users/alexdr/Programming/IPhone/TapsPerMinute/build/TapsPerMinute.build/Debug-iphoneos/TapsPerMinute.build/TapsPerMinute.xcent8632007744#466"    cd /Users/alexdr/Programming/IPhone/TapsPerMinute    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist -entitlements -format xml -o /Users/alexdr/Programming/IPhone/TapsPerMinute/build/TapsPerMinute.build/Debug-iphoneos/TapsPerMinute.build/TapsPerMinute.xcent0#
+
+CTouch /Users/alexdr/Programming/IPhone/TapsPerMinute/build/Debug-iphoneos/TapsPerMinute.app
+r0
+
